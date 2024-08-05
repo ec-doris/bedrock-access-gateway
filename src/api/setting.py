@@ -6,7 +6,7 @@ API_ROUTE_PREFIX = "/api/v1"
 
 TITLE = "Amazon Bedrock Proxy APIs"
 SUMMARY = "OpenAI-Compatible RESTful APIs for Amazon Bedrock"
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 DESCRIPTION = """
 Use OpenAI-Compatible RESTful APIs for Amazon Bedrock models.
 
@@ -16,6 +16,7 @@ List of Amazon Bedrock models currently supported:
 - Mistral / Mixtral
 - Cohere Command R / R+
 - Cohere Embedding
+- Amazon Titan Embedding Text v2
 """
 
 DEBUG = os.environ.get("DEBUG", "false").lower() != "false"
